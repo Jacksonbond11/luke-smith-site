@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-gray: #1a1a1a;
+  --color-light-gray: #2a2a2a;
+  --color-amber: #f59e0b;
+
+  --font-family-sans: "Cormorant Garamond", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: theme(colors.white);
+  font-family: theme(fontFamily.sans);
+}
