@@ -1,0 +1,46 @@
+siteName: "Luke Smith"
+copyrightYear: "2026"
+socialLinks:
+  - platform: "Twitter"
+    url: "#"
+  - platform: "Instagram"
+    url: "#"
+  - platform: "Facebook"
+    url: "#"
+  - platform: "Spotify"
+    url: "#"
+
+bio:
+  - "Luke Smith is a singer-songwriter who has been captivating audiences with his unique blend of folk, rock, and soul. His powerful vocals and heartfelt lyrics have earned him a dedicated following and critical acclaim."
+  - "From intimate coffeehouse sets to sold-out theater shows, Luke's performances are always an unforgettable experience. He is currently in the studio working on his highly anticipated debut album."
+
+spotifyEmbedUrl: "https://open.spotify.com/embed/artist/0VBnm3tIXHgpZAvOMVEFBg?utm_source=generator&theme=0"
+
+projects:
+  # Example project entry - uncomment and edit to add projects
+  # - title: "My Project"
+  #   year: "2026"
+  #   imagePath: "/images/artwork/your-project-image.jpg"
+  #   description: "Description of your project..."
+  #   spotifyLink: "https://spotify.com/..."
+  #   appleLink: "https://music.apple.com/..."
+
+shows:
+  - date: "March 15, 2026"
+    venue: "Madison Square Garden"
+    location: "New York, NY"
+    ticketLink: "#"
+    imageSrc: "https://source.unsplash.com/featured/?new-york"
+  - date: "March 20, 2026"
+    venue: "Staples Center"
+    location: "Los Angeles, CA"
+    ticketLink: "#"
+    imageSrc: "https://source.unsplash.com/featured/?los-angeles"
+  - date: "March 25, 2026"
+    venue: "United Center"
+    location: "Chicago, IL"
+    ticketLink: "#"
+    imageSrc: "https://source.unsplash.com/featured/?chicago"
+
+email: "booking@lukesmith.com"
+management: "manager@example.com"

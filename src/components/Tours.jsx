@@ -1,32 +1,11 @@
 import React from 'react';
 import useFadeIn from '../hooks/useFadeIn';
+import { loadTours } from '../utils/contentLoader';
 
 const Tours = () => {
   const [ref, isVisible] = useFadeIn();
-
-  const tourDates = [
-    {
-      date: 'March 15, 2026',
-      venue: 'Madison Square Garden',
-      location: 'New York, NY',
-      ticketLink: '#',
-      imageSrc: 'https://source.unsplash.com/featured/?new-york',
-    },
-    {
-      date: 'March 20, 2026',
-      venue: 'Staples Center',
-      location: 'Los Angeles, CA',
-      ticketLink: '#',
-      imageSrc: 'https://source.unsplash.com/featured/?los-angeles',
-    },
-    {
-      date: 'March 25, 2026',
-      venue: 'United Center',
-      location: 'Chicago, IL',
-      ticketLink: '#',
-      imageSrc: 'https://source.unsplash.com/featured/?chicago',
-    },
-  ];
+  const data = loadTours();
+  const shows = data?.shows || [];
 
   return (
     <section
@@ -43,7 +22,7 @@ const Tours = () => {
             <div>Location</div>
             <div></div>
           </div>
-          {tourDates.map((tour, index) => (
+          {shows.map((tour, index) => (
             <div key={index} className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center border-b border-gray-700 py-4">
               <div>{tour.date}</div>
               <div>{tour.venue}</div>
